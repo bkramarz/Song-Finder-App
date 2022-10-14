@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 
-SPOTIPY_CLIENT_ID = "63a4bee8ef494519b4b94df8a05aa3e2"
-SPOTIFY_CLIENT_SECRET = "0100d66e1c9a4df98fd2535262602c86"
+SPOTIPY_CLIENT_ID = XXXXX
+SPOTIFY_CLIENT_SECRET = XXXXX
 scope = "user-library-read"
 
 
