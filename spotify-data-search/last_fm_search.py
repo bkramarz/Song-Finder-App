@@ -1,8 +1,8 @@
 import requests
 
-API_KEY = "60d577a5b9c0d79dd292f3dc28b2c4a1"
-SHARED_SECRET = "9e061f357bf0947de8b56a1e625b99d3"
-API_ROOT_URL = "http://ws.audioscrobbler.com/2.0"
+API_KEY = XXXXX
+SHARED_SECRET = XXXXX
+API_ROOT_URL = XXXXX
 
 
 class LastFmSearch:
