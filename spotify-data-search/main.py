@@ -6,7 +6,7 @@ spotify_search = SpotifySearch()
 query = input("Enter an artist name:\n")
 
 spotify_similar_artist_list = spotify_search.get_related_artists(query)
-last_fm_similar_artist_list = last_fm_search.get_similar_artists(query)
+last_fm_similar_artist_list = LastFmSearch.get_similar_artists(query)
 
 final_list = [artist for artist in last_fm_similar_artist_list if artist in spotify_similar_artist_list]
 
